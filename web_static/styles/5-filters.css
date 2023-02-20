@@ -19,6 +19,7 @@ section.filters button {
 	border:0;
 	border-radius: 4px;
 	margin: 11px 30px;
+	float: right;
 }
 section.filters button:hover {
 	opacity: .9;
@@ -30,14 +31,23 @@ section.filters button:hover {
 	float: left;
 }
 .locations {
-	border-right: #DDDDDD 1px;
+	border-right: #DDDDDD solid 1px;
 }
 .locations h3,
 .amenities h3 {
 	font-weight: 600;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	text-align: left;
+	margin-left: 30px;
 }
 .locations h4,
 .amenities h4 {
 	font-weight: 400;
 	font-size: 14px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: left;
+	margin-left: 30px;
 }
